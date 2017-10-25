@@ -35,7 +35,7 @@ class Sketch : NSObject {
         canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 500, height: 500)
         
         //Change the position
-        x += 1
+        x += dx
         
         
         //Check the position and reverse course
